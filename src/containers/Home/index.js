@@ -1,11 +1,12 @@
 import React from 'react';
-
+import './Home.scss'
+import Header from "../../component/Header";
 
 const Home = props => {
-    return(
-        <div>
-            Home
-        </div>
+    return (
+        <>
+            <Header />
+            </>
     )
 }
 

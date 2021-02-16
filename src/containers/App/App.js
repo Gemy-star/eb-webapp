@@ -11,7 +11,7 @@ const App = () =>  {
       <Suspense
           fallback={
               <Backdrop open>
-                  <CircularProgress />
+                  <CircularProgress className="loader" />
               </Backdrop>
           }
       >

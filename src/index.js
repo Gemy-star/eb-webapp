@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
           <LocalizationProvider>
-              <App />
+                  <App />
           </LocalizationProvider>
       </BrowserRouter>
   </React.StrictMode>,
