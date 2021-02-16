@@ -3,11 +3,17 @@ import './header.scss';
 import logo from '../../assets/images/logo.svg';
 import {FormattedMessage} from 'react-intl';
 import {LocalizationContext} from "../../context/LocalizationContext";
+import {useHistory} from "react-router";
+import hamburger from '../../assets/images/icon-hamburger.svg';
+import iconClose from '../../assets/images/icon-close.svg';
 
 
 const Header = props => {
-    const [locale, setLocale] = useContext(LocalizationContext)
+    const [open , setOpen] = useState(false)
+    const [locale, setLocale] = useContext(LocalizationContext);
+    const history = useHistory();
     const handleClick = () => {
+        setOpen(!open)
         const btnHamburger = document.querySelector('#btnHamburger');
         const body = document.querySelector('body');
         const header = document.querySelector('.header');
@@ -37,15 +43,11 @@ const Header = props => {
             <div className="overlay has-fade"></div>
 
             <nav className="container container--pall flex flex-jc-sb flex-ai-c">
-                <a href="/" className="header__logo">
+                <a onClick={() =>  history.push('/')} className="header__logo">
                     <img src={logo} alt="Easybank"/>
                 </a>
 
-                <a onClick={handleClick} href="#" className="header__toggle hide-for-desktop">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
+                <img src={open ? iconClose : hamburger} onClick={handleClick} className="header__toggle hide-for-desktop" />
 
                 <div className="header__links hide-for-mobile">
                     <a href="#">
