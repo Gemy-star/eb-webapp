@@ -61,5 +61,16 @@ export default {
             },
 
         }
+    } ,
+    footer:{
+        links:{
+            about:'About Us' ,
+            contact:'Contact' ,
+            blog:'Blog',
+            careers:'Careers',
+            support:'Support',
+            privacy:'Privacy Policy',
+            rights:'EasyBank. All Rights Reserved.'
+        }
     }
 };

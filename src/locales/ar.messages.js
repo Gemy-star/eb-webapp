@@ -61,6 +61,18 @@ export default {
             },
 
         }
+    },
+
+    footer:{
+        links:{
+            about:'معلومات عنا' ,
+            contact:'اتصال' ,
+            blog:'مقالات',
+            careers:'وظائف',
+            support:'الدعم',
+            privacy:'سياسة خاصة',
+            rights:'إيزى بنك. كل الحقوق محفوظة.'
+        }
     }
 
 
