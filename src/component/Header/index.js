@@ -19,7 +19,7 @@ const Header = props => {
         const header = document.querySelector('.header');
         const overlay = document.querySelector('.overlay');
         const fadeElems = document.querySelectorAll('.has-fade');
-        if (header.classList.contains('open')) { // Close Hamburger Menu
+        if (header.classList.contains('open')) {
             body.classList.remove('noscroll');
             header.classList.remove('open');
             fadeElems.forEach(function (element) {
