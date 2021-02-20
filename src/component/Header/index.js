@@ -1,5 +1,5 @@
 import React, {useState, useContext} from 'react';
-import './header.scss';
+import './_header.scss';
 import logo from '../../assets/images/logo.svg';
 import {FormattedMessage} from 'react-intl';
 import {LocalizationContext} from "../../context/LocalizationContext";

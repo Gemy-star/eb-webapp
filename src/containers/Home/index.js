@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.scss'
+import './_Home.scss'
 import Header from "../../component/Header";
 import Background from "../../component/background";
 import Features from "../Features";

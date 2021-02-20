@@ -1,7 +1,8 @@
 import React , {lazy ,Suspense} from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Backdrop, CircularProgress } from '@material-ui/core';
-import './App.css';
+import './styles.scss';
+import './App.css'
 import { useIntl } from 'react-intl';
 const Home = lazy(() => import('../Home'));
 

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../containers/Features/Features.scss';
+import '../../containers/Features/_Features.scss';
 
 const Feature = ({icon , title , description}) =>  {
     return(

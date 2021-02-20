@@ -1,6 +1,6 @@
 import React from "react";
 import Article from "../../component/Article";
-import './Articles.scss';
+import './_Articles.scss';
 import {FormattedMessage} from 'react-intl';
 import Currency from '../../assets/images/image-currency.jpg'
 import Restaurant from '../../assets/images/image-restaurant.jpg'

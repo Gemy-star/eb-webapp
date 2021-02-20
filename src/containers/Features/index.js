@@ -1,5 +1,5 @@
 import React from "react";
-import './Features.scss';
+import './_Features.scss';
 import Feature from "../../component/Feature";
 import Online from '../../assets/images/icon-online.svg';
 import Budget from '../../assets/images/icon-budgeting.svg';

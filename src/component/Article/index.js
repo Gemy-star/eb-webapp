@@ -1,5 +1,5 @@
 import React from "react";
-import '../../containers/Articles/Articles.scss';
+import '../../containers/Articles/_Articles.scss';
 
 const Article = ({image , author , title , desc }) => {
 

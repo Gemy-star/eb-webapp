@@ -1,6 +1,6 @@
 import React , {useContext}  from 'react';
 import { useIntl } from 'react-intl';
-import './background.scss'
+import './_background.scss'
 import {FormattedMessage} from 'react-intl';
 
 

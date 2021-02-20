@@ -1,6 +1,6 @@
-@import "../App/Media";
-@import "../App/Variables";
-@import "../App/mixins";
+@import "src/containers/App/Media";
+@import "src/containers/App/Variables";
+@import "src/containers/App/mixins";
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
