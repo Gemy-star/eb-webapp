@@ -14,8 +14,11 @@
   }
 
   &__arabic {
-    transform: scaleX(0.5);
-  }
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+    right: 20%;
+    }
   &__image {
     position: relative;
     background-image: url('../../assets/images/bg-intro-mobile.svg');
@@ -45,7 +48,6 @@
         height: 100%;
         background-image: url('../../assets/images/bg-intro-desktop.svg');
         background-repeat: no-repeat;
-        //background-position: center bottom;
         width: 150%;
         background-size: 122%;
         background-position: 0% 83%;
